@@ -16,11 +16,12 @@ I hope to start developing games as a team in the future.
 
 ## Skills and Proficiency:
 
-#### -C++
-#### -HTML,CSS
-#### -SQL
-#### -Git,GitHub
-#### -Adobe Photoshop
+#### 
+-  C++
+-  HTML,CSS
+-  SQL
+-  Git,GitHub
+-  Adobe Photoshop
 
 ## Code Example:
 
@@ -42,6 +43,7 @@ ati++;
 ```
 ## Courses:
 
-#### -HTML and CSS course on [stepik.org](https://stepik.org/course/38218/syllabus?auth=login)(in progress)
-#### -C++ course on [stepik.org](https://stepik.org/course/363/syllabus)(almost done)
-#### -SQL course on [stepik.org](https://stepik.org/course/63054/syllabus)(in progress)
+#### 
+- HTML and CSS course on [stepik.org](https://stepik.org/course/38218/syllabus?auth=login)(in progress)
+- C++ course on [stepik.org](https://stepik.org/course/363/syllabus)(almost done)
+- SQL course on [stepik.org](https://stepik.org/course/63054/syllabus)(in progress)
