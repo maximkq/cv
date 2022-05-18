@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            </ul>
+          </nav>
+        <div>
+            
+        </div>
+    </header>
+    <main class = "main">
+      <div class=" container main">
+          <section class="sections" id="profile">
+       <div class ="section-profile-t">
+           <h1 class="section-name">Maxim Savastyanov</h1>
+           
+       </div>
+          </section>
+          <section class="section" id="contacts">
+              <h3 class="section-contacts">Contacts</h3>
+              <ul class="section-list">
+                  <li class="section-item contacts-item">Vitebsk, Belarus</li>
+                  <li class="section-item contacts-item">Email: <a href="mailto:maxsav2357@gmail.com" title="email">maxsav2357@gmail.com</a></li>
+                  <li class="section-item contacts-item">Github: <a href="https://github.com/maximkq" title="github">maximkq</a></li>
+                  <li class="section-item contacts-item">Telegram: <a href="https://t.me/maksulim" title="Telegram">@maksulim</a></li>
+              </ul>
+          </section>
+          <h2>Summary</h2>
+          <section class="section section-summary"id="Summary">
+             <h4>I study at the Masherov VSU with a degree in Information Resource Management. The C++ programming language being studied. Basic knowledge of the language and its syntax . Also a little knowledge of SQL.
+              I am interested in game development. I spend my free time studying new information.
+              I hope to start developing games as a team in the future.</h4> 
+          </section>
+          <section class="section section-skills" id="skills">
+              <h3>Skills</h3>
+              <br>
+              <ul class ="section-code">
+                <li class="section-item skills-item">C++</li>    
+                <li class="section-item skills-item">Microsoft Excel</li>    
+                <li class="section-item skills-item">Microsoft Word</li>
+              </ul>
+            </section>
+            <section class="section section-code" id="code">
+              <h3>Code</h3>
+              <pre class="pre">
+                  <code>
+iti = mp.begin();
+ati = mp.end();
+ati--;
+for (int i = 0; iti != mp.end(); i++, iti++) {
+for (int j = mp.size() - 1; j > i; ati--, j--) {
+noti = ati->second;
+ati--;
+second_noti = ati->second;
+if (second_noti.GetYear() > noti.GetYear() || (second_noti.GetYear() == noti.GetYear() && (second_noti.GetMonth() > noti.GetMonth()|| (second_noti.GetMonth() == noti.GetMonth() && second_noti.GetDay() > noti.GetDay())))) {
+swap(mp[j], mp[j - 1]);
+ati++;
+}
+}
+                  </code>
+              </pre>
+            </section>
+          <section class="section section-courses" id="Courses">
+            <h2>Corses</h2>
+
+              <ul>
+                  <li>HTML and CSS course on <a href="https://stepik.org/course/38218/syllabus?auth=login" title="stepik.org">(in progress)</a></li>
+                  <li>C++ course on <a href="https://stepik.org/course/363/syllabus" title="stepik.org">(almost done)</a></li>
+          </section> 
+      </div>
+      </main>
+</body>
+</html>
