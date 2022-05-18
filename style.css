@@ -17,6 +17,13 @@ h2{
   font-size: 25px;
   text-align: center;
 }
+h4{
+  color:royalblue;
+  font-size: 19px;
+}
+h3{
+  text-align: center;
+}
 .header{
   background-color: salmon;
   min-height: 30px;
@@ -31,14 +38,15 @@ background-color: cornsilk;
 }
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
 .nav-link {
   padding: 0 20px;
-  line-height: 50px;
+  line-height: 20px;
   transition: .3s;
+  color: black;
 }
 .section-item a {
   color: #829985;
