@@ -1,1 +1,1 @@
- https://maximkq.github.io/cv/cv
+ https://maximkq.github.io/cv
