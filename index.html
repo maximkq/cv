@@ -11,11 +11,6 @@
 </head>
 <body>
     <header class = "header">
-        .nav-list {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-          }
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -34,6 +29,7 @@
           <section class="sections" id="profile">
        <div class ="section-profile-t">
            <h1 class="section-name">Maxim Savastyanov</h1>
+           
        </div>
           </section>
           <section class="section" id="contacts">
@@ -45,6 +41,7 @@
                   <li class="section-item contacts-item">Telegram: <a href="https://t.me/maksulim" title="Telegram">@maksulim</a></li>
               </ul>
           </section>
+          <h2>Summary</h2>
           <section class="section section-summary"id="Summary">
              <h4>I study at the Masherov VSU with a degree in Information Resource Management. The C++ programming language being studied. Basic knowledge of the language and its syntax . Also a little knowledge of SQL.
               I am interested in game development. I spend my free time studying new information.
@@ -53,17 +50,17 @@
           <section class="section section-skills" id="skills">
               <h3>Skills</h3>
               <br>
-              <ul>
-                <li>C++</li>    
-                <li>Microsoft Excel</li>    
-                <li>Microsoft Word</li>
+              <ul class ="section-code">
+                <li class="section-item skills-item">C++</li>    
+                <li class="section-item skills-item">Microsoft Excel</li>    
+                <li class="section-item skills-item">Microsoft Word</li>
               </ul>
             </section>
             <section class="section section-code" id="code">
               <h3>Code</h3>
               <pre class="pre">
                   <code>
-                      iti = mp.begin();
+iti = mp.begin();
 ati = mp.end();
 ati--;
 for (int i = 0; iti != mp.end(); i++, iti++) {
@@ -80,6 +77,8 @@ ati++;
               </pre>
             </section>
           <section class="section section-courses" id="Courses">
+            <h2>Corses</h2>
+
               <ul>
                   <li>HTML and CSS course on <a href="https://stepik.org/course/38218/syllabus?auth=login" title="stepik.org">(in progress)</a></li>
                   <li>C++ course on <a href="https://stepik.org/course/363/syllabus" title="stepik.org">(almost done)</a></li>
